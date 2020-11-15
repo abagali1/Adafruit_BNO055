@@ -77,7 +77,7 @@ public:
 
   void normalize() {
     double mag = magnitude();
-    if (isnan(mag) || mag == 0.0)
+    if (std::isnan(mag) || mag == 0.0)
       return;
 
     for (int i = 0; i < N; i++)
