@@ -44,7 +44,7 @@
  *          Wire object
  */
 Adafruit_BNO055::Adafruit_BNO055(int32_t sensorID, uint8_t address,
-                                 TwoWire *theWire) {
+                                 i2c_t3 *theWire) {
   _sensorID = sensorID;
   _address = address;
   _wire = theWire;
