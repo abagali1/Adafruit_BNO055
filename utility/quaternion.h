@@ -22,7 +22,7 @@
 #ifndef IMUMATH_QUATERNION_HPP
 #define IMUMATH_QUATERNION_HPP
 
-#include <math.h>
+#include <cmath>
 #include <stdint.h>
 #include <stdlib.h>
 #include <string.h>

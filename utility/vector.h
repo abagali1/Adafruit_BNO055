@@ -22,7 +22,7 @@
 #ifndef IMUMATH_VECTOR_HPP
 #define IMUMATH_VECTOR_HPP
 
-#include <math.h>
+#include <cmath>
 #include <stdint.h>
 #include <string.h>
 
